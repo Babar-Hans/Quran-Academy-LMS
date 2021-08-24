@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Profile</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- above bootstrap cdn link is use -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+  <!-- <div class="container"> -->
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg  navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="page-up">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mr-auto" id="navbarNav">
+
+          <div class="mx-auto"></div> <!-- margin auto for nav right -->
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="./Home.html">Home</a>
+            </li>
+
+            <div class="border"></div> <!-- for border between home links -->
+            <li class="nav-item">
+              <a class="nav-link active" href="./Courses.html">Courses</a>
+            </li>
+
+            <div class="border"></div> <!-- for border between home links -->
+
+            <li class="nav-item">
+              <a class="nav-link active" href="./Rules.html">Rules</a>
+            </li>
+
+            <div class="border"></div> <!-- for border between home links -->
+
+            <li class="nav-item">
+              <a class="nav-link active" href="./ContactUs.html">Contact Us</a>
+            </li>
+
+            <div class="border"></div> <!-- for border between home links -->
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bell-icon SetPositon-usertag-bell fa fa-bell"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-notification" aria-labelledby="navbarDropdown">
+                <div class="row m-auto ">
+                  <div class="col-2">
+                    <i style="color: black;" class="fa fa-bell"></i>
+                  </div>
+                  <div class="col-10">
+                    You have a new Nortifcation
+                  </div>
+                </div>
+
+                <div class="row m-auto ">
+                  <div class="col-2">
+                    <i style="color: black;" class="fa fa-bell"></i>
+                  </div>
+                  <div class="col-10">
+                    You have a new Nortifcation
+                  </div>
+                </div>
+
+                <div class="row m-auto ">
+                  <div class="col-2">
+                    <i style="color: black;" class="fa fa-bell"></i>
+                  </div>
+                  <div class="col-10">
+                    You have a new Nortifcation
+                  </div>
+                </div>
+
+                <div class="row m-auto ">
+                  <div class="col-2">
+                    <i style="color: black;" class="fa fa-bell"></i>
+                  </div>
+                  <div class="col-10">
+                    You have a new Nortifcation
+                  </div>
+                </div>
+
+
+                <hr class="dropdown-divider">
+                <div class="row m-auto">
+                  <div class="col-12 text-center">
+                    <a href="../Pages/Nortification.html">Vew All</a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="SetPositon-usertag-bell fa fa-user-circle"></i> User Abc
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./Myprofile.html">My Profile</a></li>
+                <li><a class="dropdown-item" href="./MyCourses.html">Course Logs</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal"
+                    data-bs-dismiss="modal">Log Out</a></li>
+              </ul>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- header end -->
+
+
+
+  <!-- myprofile navbar start  -->
+  <div class="main-view-editprofile">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Edit Profile</a>
+        </div>
+      </nav>
+    </div>
+    <!-- myprofile navbar end -->
+
+    <!-- profile card start -->
+    <div class="profile-box-editprofile">
+      <div class="profile-img-editprofile">
+        <img src="../Images/ProfileDemo.png">
+        <div class="camera-box-editprofile">
+          <i class="fas fa-camera"></i>
+        </div>
+      </div>
+      <div class="bio-data-row-editprofile">
+        <div class="container">
+          <form action="#">
+            <div class="row row-col-2 row-col-2-editprofile">
+              <div class="col" class="stylecol" style="text-align: left;">First Name:</div>
+              <div class="col" style="text-align: right;"><input type="text" name="text" placeholder="First Name..."
+                  id="#" required></div>
+            </div>
+            <hr>
+            <div class="row row-col-2 row-col-2-editprofile">
+              <div class="col" style="text-align: left;">Last Name:</div>
+              <div class="col" style="text-align: right;"><input type="text" name="text" placeholder="Last Name..."
+                  id="#" required></div>
+            </div>
+            <hr>
+            <div class="row row-col-2 row-col-2-editprofile">
+              <div class="col" style="text-align: left;">Email Address</div>
+              <div class="col" style="text-align: right;"><input type="text" name="email" placeholder="Email Address..."
+                  id="#" required></div>
+            </div>
+            <hr>
+            <div class="row row-col-2 row-col-2-editprofile">
+              <div class="col" style="text-align: left;">Country</div>
+              <div class="col" style="text-align: right;"> <select name="country" id="country">
+                  <option value="country abc">Select</option>
+                  <option value="country abc">country abc</option>
+                  <option value="country abc">country abc</option>
+                  <option value="country abc">country abc</option>
+                </select>
+              </div>
+            </div>
+            <hr>
+            <div class="row row-col-2 row-col-2-editprofile">
+              <div class="col" style="text-align: left;">State</div>
+              <div class="col" style="text-align: right;"><select name="State" id="State">
+                  <option value="country abc">Select</option>
+                  <option value="country abc">State abc</option>
+                  <option value="country abc">State abc</option>
+                  <option value="country abc">State abc</option>
+                </select></div>
+            </div>
+            <hr>
+            <div class="row row-col-2 row-col-2-editprofile">
+              <div class="col" style="text-align: left;">City</div>
+              <div class="col" style="text-align: right;"><select name="city" id="city">
+                  <option value="city abc">Select</option>
+                  <option value="city abc">City abc</option>
+                  <option value="city abc">City abc</option>
+                  <option value="city abc">City abc</option>
+                </select></div>
+            </div>
+            <center><button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                class="btn btn-success ">Update</button></center>
+          </form>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+  <!-- profile card end -->
+
+
+  
+  <!-- ______________________________page-up-button___________________________ -->
+<a href="#page-up"><img src="https://static.thenounproject.com/png/1384177-200.png" style="width: 50px;height: 50px;"></a>
+
+
+
+  <!-- ___________________EXTRA__________________- -->
+  <!-- Modal Alert -->
+  <!-- Button trigger modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close btn-close-color" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="icongreentick">
+            <i class="fa fa-check-circle"></i>
+          </div>
+          <div class="error-tag">
+            <h2>Profile Updated Successfully</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- MODAL FOR LOG OUT  -->
+
+  <div class="modal fade" id="exampleModalToggle4" tabindex="-1" aria-labelledby="exampleModalToggleLabel4"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close btn-close-color" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="error-tag">
+            <h6>Are you Sure you want to Log out?</h6>
+          </div>
+        </div>
+        <div class="para-Error">
+          <button class="btn modal-btn-1 btn-success"> <a class="underlineremove-and-colorwhite " href="./Login.html">
+              Yes </a></button>
+          <button class="btn modal-btn-2 btn-danger" data-bs-dismiss="modal" aria-label="Close">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class=" footer">
+      <span>Copyright | LMS Academy All Rights Reserved</span>
+    </div>
+  </footer>

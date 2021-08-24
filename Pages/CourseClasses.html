@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourseClasses</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- above bootstrap cdn link is use -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- for Slide bar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- <div class="container"> -->
+    <!-- header start -->
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg  navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="page-up">LOGO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mr-auto" id="navbarNav">
+
+                    <div class="mx-auto"></div> <!-- margin auto for nav right -->
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./Home.html">Home</a>
+                        </li>
+
+                        <div class="border"></div> <!-- for border between home links -->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./Courses.html">Courses</a>
+                        </li>
+
+                        <div class="border"></div> <!-- for border between home links -->
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./Rules.html">Rules</a>
+                        </li>
+
+                        <div class="border"></div> <!-- for border between home links -->
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./ContactUs.html">Contact Us</a>
+                        </li>
+
+                        <div class="border"></div> <!-- for border between home links -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bell-icon SetPositon-usertag-bell fa fa-bell"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-notification" aria-labelledby="navbarDropdown">
+                                <div class="row m-auto ">
+                                    <div class="col-2">
+                                        <i style="color: black;" class="fa fa-bell"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        You have a new Nortifcation
+                                    </div>
+                                </div>
+
+                                <div class="row m-auto ">
+                                    <div class="col-2">
+                                        <i style="color: black;" class="fa fa-bell"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        You have a new Nortifcation
+                                    </div>
+                                </div>
+
+                                <div class="row m-auto ">
+                                    <div class="col-2">
+                                        <i style="color: black;" class="fa fa-bell"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        You have a new Nortifcation
+                                    </div>
+                                </div>
+
+                                <div class="row m-auto ">
+                                    <div class="col-2">
+                                        <i style="color: black;" class="fa fa-bell"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        You have a new Nortifcation
+                                    </div>
+                                </div>
+
+
+                                <hr class="dropdown-divider">
+                                <div class="row m-auto">
+                                    <div class="col-12 text-center">
+                                        <a href="../Pages/Nortification.html">Vew All</a>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="SetPositon-usertag-bell fa fa-user-circle"></i> User Abc
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./Myprofile.html">My Profile</a></li>
+                                <li><a class="dropdown-item" href="./MyCourses.html">Course Logs</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" data-bs-target="#exampleModalToggle4"
+                                        data-bs-toggle="modal" data-bs-dismiss="modal">Log Out</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- header end -->
+
+    <!-- pagelayout row start -->
+    <div class="containerforcourseclasses">
+        <div class="row">
+            <div class="col-3">
+                <!-- sidebar section start  -->
+                <section class="main-sidebar">
+                    <div class="close-btn"><i class="fas fa-times"></i> </div>
+                    <div class="course-container-sidebar">
+                        <h4>Course ABC</h4>
+                        <h6>Instructor abc </h6>
+                    </div>
+                    <div class="course-button-sidebar"><button class="btn"><a href="./CourseDetails.html">Cours
+                                Details</a></button></div>
+                    <div class="classes-button-sidebar"><button class="btn"><a
+                                href="./CourseClasses.html">Classes</a></button></div>
+                    <div class="files-button-sidebar"><button class="btn"><a href="./CourseFiles.html">Files</a></button>
+                    </div>
+                    <div class="links-button-sidebar"><button class="btn"><a href="#">Links</a></button></div>
+                    <div class="annoucement-button-sidebar"><button class="btn"><a
+                                href="./CourseAnnoucement.html">Annoucement</a></button></div>
+                    <div class="generic-button-sidebar"><button class="btn"><a href="./Generic-Course-Content.html">Generic
+                                Coursecontent</a></button></div>
+                    <div class="row margin-auto">
+                        <div class="col-12">
+                            <div class="notify-container-sidebar">
+                                <h2>Notices</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum</p>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum</p>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row margin-auto">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="todayclass-container-sidebar">
+                                <h2>Today Class</h2>
+                                <p>Monday: 14/12/2020</p>
+                                <p>Time: 06.30pm - 08:30pm</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="nextclass-container-sidebar">
+                                <h2>Next Class</h2>
+                                <p>Monday: 17/12/2020</p>
+                                <p>Time: 06.30pm - 08:30pm</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="open-btn">
+                    <i class="fas fa-bars" style="font-size: 30px;"></i>
+                    <hr>
+                </div>
+            </div>
+            <!-- sidebar section end -->
+            <!-- article side start -->
+    
+            <div class="col-lg-9 col-md-12">
+                <div class="jquery-remove">
+                    <section class="main-article main-table-coursesclasses">
+                        <!-- insdie articel side row start -->
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12">
+                                <div class="article-image">
+                                    <div class="mycourses-container">
+                                        <div class="heading-mycourse">
+                                            <h1>Classes</h1>
+                                        </div>
+                                        <div class="Entries-mycourses Entries-courseclasses">
+                                            <span> <span class="entriesshow-tag"> Show Entries :</span>
+                                                <select name="" id="">
+                                                    <option value="1">1</option>
+                                                    <option value="1">2</option>
+                                                    <option value="1">3</option>
+                                                    <option value="1">4</option>
+                                                    <option value="1">5</option>
+                                                </select>
+                                            </span>
+                                            <div class="search-bar-courseclasses">
+                                                <input type="text" placeholder="Search ">
+                                                <a href=""> <i class="fa fa-search"></i> </a>
+                                            </div>
+                                        </div>
+    
+                                        <div class="dates-mycourses">
+                                            <span>Sort by Date:</span>
+                                            <input class="selectdate" type="date"> <span> --</span><input class="selectdate"
+                                                type="date">
+                                            <div class="filterbystatus-mycourses">
+                                                <span>Filter By Status</span>
+                                                <select name="" id="">
+                                                    <option value="">Select</option>
+                                                    <option value="">Select</option>
+                                                    <option value="">Select</option>
+                                                </select>
+                                            </div>
+                                        </div>
+    
+    
+                                        <div class="containerfortable-mycourses">
+                                            <!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+    
+    
+                                            <table class="GeneratedTable-mycourses GeneratedTable-coursesclasses">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S.No</th>
+                                                        <th>Course Title</th>
+                                                        <th>Intructor</th>
+                                                        <th>Date</th>
+                                                        <th>Cost</th>
+                                                        <th>Status</th>
+                                                        <th>Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>01</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>02</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>03</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>04</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>05</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>06</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>07</td>
+                                                        <td>Course Abc</td>
+                                                        <td>instructor Abc</td>
+                                                        <td>dd/mm/yyyy</td>
+                                                        <td>$123</td>
+                                                        <td>Ongoing</td>
+                                                        <td><i class="fa-black-dot fa fa-ellipsis-v" type="Button"
+                                                                class="modal-btn-2 btn btn-primary"
+                                                                data-bs-target="#exampleModalToggle7"
+                                                                data-bs-toggle="modal"></i></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- Codes by Quackit.com -->
+    
+    
+                                        </div>
+    
+    
+    
+                                        <!-- __________________________Showing result_____________ -->
+    
+                                        <div class="container-pageshift-nortifcation mt-160px">
+                                            <span class="showing-result-tag-mycourses">Showing 10 out of 52 entries</span>
+    
+                                            <nav aria-label="Page navigation example">
+                                                <ul class="pagination justify-content-end">
+                                                    <li class="page-item disabled">
+                                                        <a class="page-link" href="#" tabindex="-1"
+                                                            aria-disabled="true">Previous</a>
+                                                    </li>
+                                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#">Next</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+    
+    
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- insdie articel side row end -->
+                    </section>
+                </div>
+    
+                <!-- article side end -->
+            </div>
+        </div>
+    </div>
+
+    <!-- paglayout row end -->
+
+
+  <!-- ______________________________page-up-button___________________________ -->
+  <a href="#page-up"><img src="https://static.thenounproject.com/png/1384177-200.png" style="width: 50px;height: 50px;"></a>
+
+
+
+    <!-- MODAL FOR  LESSSON  # 1   -->
+    <div class="modal fade" id="exampleModalToggle7" aria-hidden="true" aria-labelledby="exampleModalToggleLabel7"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Lesson</h2>
+                    <button type="button" class="btn-close btn-close-color" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row lessons-pop-up-style">
+                        <div class="col-6"> <span class="lesson-info-bold"> Chapter*: </span></div>
+                        <div class="col-6"> <span> Chapter abc </span></div>
+                    </div>
+                    <div class="row lessons-pop-up-style">
+                        <div class="col-6"> <span class="lesson-info-bold"> Main Book*: </span></div>
+                        <div class="col-6"> <span> Main Book abc </span></div>
+                    </div>
+                    <div class="row lessons-pop-up-style">
+                        <div class="col-6"> <span class="lesson-info-bold"> From Page No.*: </span></div>
+                        <div class="col-6"> <span> 00 </span> </div>
+                    </div>
+                    <div class="row lessons-pop-up-style">
+                        <div class="col-6"> <span class="lesson-info-bold"> To Page No.*: </span></div>
+                        <div class="col-6"> <span> 00 </span> </div>
+                    </div>
+                    <div class="row lessons-pop-up-style">
+                        <div class="col-6"> <span class="lesson-info-bold"> Type*: </span> </div>
+                        <div class="col-6"> <span> Type Abc </span></div>
+                    </div>
+                    <div class="row lessons-pop-up-style">
+                        <div class="col-6"> <span class="lesson-info-bold"> From Ayah/Line*: </span></div>
+                        <div class="col-6"> <span> 00 </span></div>
+                    </div>
+                    <div class="row lessons-pop-up-style">
+                        <div class="col-6"> <span class="lesson-info-bold"> To Ayah/Line*: </span></div>
+                        <div class="col-6"> <span> 00 </span></div>
+                    </div>
+                    <div class="row lessons-pop-up-style">
+                        <div class="col-6"> <span class="lesson-info-bold"> Memorized Lesson*: </span></div>
+                        <div class="col-6"> <span> Lesson abc </span></div>
+                    </div>
+                    <div class="row lessons-pop-up-style">
+                        <div class="col-6"> <span class="lesson-info-bold"> Memorized Detail*: </span></div>
+                        <div class="col-6"> <span> Lorem Ipsum </span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- MODAL FOR LOG OUT  -->
+
+    <div class="modal fade" id="exampleModalToggle4" tabindex="-1" aria-labelledby="exampleModalToggleLabel4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close btn-close-color" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="error-tag">
+                        <h6>Are you Sure you want to Log out?</h6>
+                    </div>
+                </div>
+                <div class="para-Error">
+                    <button class="btn modal-btn-1 btn-success"> <a class="underlineremove-and-colorwhite "
+                            href="./Login.html"> Yes </a></button>
+                    <button class="btn modal-btn-2 btn-danger" data-bs-dismiss="modal" aria-label="Close">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class=" footer">
+            <span>Copyright | LMS Academy All Rights Reserved</span>
+        </div>
+    </footer>
+
+
+
+
+
+
+    </div>
+</body>
+
+<script src="../Script/Script.js"></script>
+
+
+</html>
